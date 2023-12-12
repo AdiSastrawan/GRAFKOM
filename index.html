@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <link rel="stylesheet" href="./style/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="line">make a line</button>
+      <button id="draw">draw</button>
+      <button id="circle">make a circle</button>
+      <canvas id="canvas1" width="1250" height="590"></canvas>
+      <div class="modal hidden">
+        <button class="close">x</button>
+        <div class="modal-content">
+          <h2>Make Circle</h2>
+          <label>Coordinate X</label>
+          <input type="number" id="x" />
+          <label>Coordinate Y</label>
+          <input type="number" name="" id="y" />
+          <label>Scale</label>
+          <input type="number" name="" id="scale" />
+          <button id="create-circle">Create Circle</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./app.js"></script>
+</html>
